@@ -1,0 +1,27 @@
+{
+    "name": "displayjs",
+    "version": "0.1.0",
+    "description": "A JavaScript/TypeScript display library",
+    "type": "module",
+    "main": "./dist/displayjs.umd.js",
+    "module": "./dist/displayjs.js",
+    "types": "./dist/displayjs.d.ts",
+    "exports": {
+        ".": {
+            "import": "./dist/displayjs.js",
+            "require": "./dist/displayjs.umd.js"
+        }
+    },
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build"
+    },
+    "devDependencies": {
+        "vite": "^7.0.0",
+        "vite-plugin-dts": "^4.5.0",
+        "typescript": "^5.0.0"
+    }
+}

@@ -1,0 +1,17 @@
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+button{
+    margin: 1px;
+    border:1px solid rgb(63, 150, 200);
+    width: 70px;
+    height: 30;
+    font-size: large;
+}
+.list{
+    border-top:2px solid rgb(63, 150, 200);
+    border-left:2px solid rgb(63, 150, 200);
+    border-right:2px solid rgb(45, 107, 143);
+    border-bottom:2px solid rgb(63, 150, 200);
+    width: 85px;
+}
